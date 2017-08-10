@@ -48,6 +48,7 @@ body {
 	border-style: solid;
 	border-color: #dddddd;
 	padding: 20px;
+	clear: all;
 
 }
 
@@ -109,4 +110,36 @@ hr {
 	padding: 5px;
 	height: 120px;
 
-}#submitButton
+}#submitButton {
+	text-align: center;
+	padding: .5px;
+	width: 120px;		
+	background-color: #20B2AA;
+	color: white;
+	font-size: 16px;
+	margin-top: 15px;
+}
+.Photo {
+	margin-left: 30px;
+	height: 100px;
+	width: 200px;
+	background-image: url(http://lorempixel.com/400/200/);
+}
+.PhotoR {
+	margin-top: -356px;
+	margin-right: 30px;
+	height: 100px;
+	width: 200px;
+	background-image: url(http://lorempixel.com/400/200/);
+	float: right;
+	clear: all;
+}
+.PhotoR1 {
+	margin-top: -256px;
+	margin-right: 30px;
+	height: 100px;
+	width: 200px;
+	background-image: url(http://lorempixel.com/400/200/);
+	float: right;
+	clear: all;
+}
